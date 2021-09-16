@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 30px;
+  background: #333;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  background: #f1f1f1;
+}
+.title{
+  font-weight: 600;
+  margin-top: 50px;
+  letter-spacing: 0.03em;
+  font-family: Montserrat, sans-serif;
+}
+.classification-section{
+  padding: 80px 0px 80px;
+}
+.fileInput{
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.result-title{
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.result-title h1{
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  color: #fff;
+  background: #333;
+  width: 250px;
+  border-radius: 5px;
+  padding: 2px 0px;
+}
+.image-cont img{
+  margin-top: 30px;
+  width: 440px;
+  height: 380px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.mybtn{
+  outline: none;
+  border: none;
+  background-color: #152d35;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 30px;
+  padding: 10px 40px;
+  letter-spacing: 0.03em;
+}
+.mybtn:focus{
+  border: none;
+}
+.mybtn:hover{
+  color: #fff;
+}
+.uploadimage{
+  border: none;
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 20px;
+  letter-spacing: 0.03em;
+  margin-right: 10px;
+}
+.or{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-right: 10px;
+}
+.input-url{
+  width: 250px;
+  padding: 2px 8px;
+  border-color: #333;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.showloading{
+  margin-top: 160px;
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.result-text{
+  margin-top: 64px;
+}
+.result-box{
+  border: 1px solid #333;
+  padding: 20px 10px;
+  margin: 20px 0px;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.confidence{
+  color: red;
+}
